@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="6840370148840"
+    token="6150519346166662469" >
+
+    <task
+        name="javac"
+        duration="5025" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2151" />
+    <task
+        name="verifier"
+        duration="101" />
+
+    <artifact
+        location="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="6840370148840" >
+        <artifact
+            location="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

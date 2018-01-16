@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp">
+
+
+    <!-- 1st Child Layout (Nested In parent layout) with horizontal orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/probability_display">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Probability Display"
+            android:id="@+id/Probability_Display" />
+    </LinearLayout>
+
+    <!-- 2nd Child Layout. Used for debugging -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Coordinates TV"
+            android:id="@+id/coordinatesTV" />
+
+    </LinearLayout>
+
+    <!-- 2nd Child Layout (Nested In parent layout) with horizontal orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Your current location"
+            android:layout_height="match_parent"
+            android:id="@+id/currentloc_btn"
+            android:onClick="onClickChangeLoc" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Limestone, Maine, USA"
+            android:layout_height="wrap_content"
+            android:id="@+id/limestone_btn"
+            android:onClick="onClickChangeLoc" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Qaanaaq, Qaasuitsup, Greenland"
+            android:layout_height="wrap_content"
+            android:id="@+id/qaanaaq_btn"
+            android:onClick="onClickChangeLoc" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Franz Josef Land, Arkhangelsk Oblast, Russia"
+            android:layout_height="wrap_content"
+            android:id="@+id/franz_josef_land_btn"
+            android:onClick="onClickChangeLoc" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Fair Banks, Alaska, USA"
+            android:layout_height="wrap_content"
+            android:id="@+id/FairBanksBtn"
+            android:onClick="onClickChangeLoc" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Current Location"
+            android:id="@+id/currentLocationTV" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Quick Update"
+            android:layout_height="wrap_content"
+            android:id="@+id/QuickUpdate"
+            android:onClick="onClickQuickUpdate" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Start Service"
+            android:layout_height="wrap_content"
+            android:id="@+id/StartService"
+            android:onClick="onClickStartService" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Stop Service"
+            android:layout_height="wrap_content"
+            android:id="@+id/StopService"
+            android:onClick="onClickStopService" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Notifications are off."
+            android:id="@+id/alarmStatusTV" />
+
+    </LinearLayout>
+
+    <!-- User preferences: alarm frequency, alarm threshold, email settings, etc -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Notification Frequency"
+            android:id="@+id/notificationFrequencyTV"/>
+        <EditText
+            android:id="@+id/notificationFrequencyET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="EditNotificationFrequency"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:hint="Input something between 30 secs and 60 secs"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Program Messages"
+            android:id="@+id/programMessagesTV"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:layout_marginBottom="25dp"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="Current Row"-->
+    <!--android:id="@+id/currentRowTV" />-->
+    <!--<TextView-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:layout_marginBottom="25dp"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="Current Column"-->
+    <!--android:id="@+id/currentColTV" />-->
+
+</LinearLayout>

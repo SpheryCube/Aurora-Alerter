@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_e7e86bb1e92a59d57020ea8a6b761c33b08f4f31/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_90726af4fe2a1a2426945a6cb49fe12cc6ae699a/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="889ec4677fc071b6a2aa10f7cb09f39e6487d38e">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cbe261ce80346679c3d05312b3c60b2857c17006/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.1.0_ba5c96e4f8d4489cc0851404bd6a1ecd8a6e0871/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.1.0_f2b5cd75c215cf5888c5ba6980a53c315de5897b/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_be6e33ba3043eeb8d1a7cde114b82a9c077eb842/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.1.0_8b79f2ce277e033f1e664f8f3901b397c90048f9/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a76fec73f5113901924355c470dc459f7b229c69">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_756f697eb022fbed21295558257c7ba8ee1146a0/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_e996881ee2f55e69a9f4b7ddfdcd0473c3a607ae/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_36c83104ee0e95ab9f1ca313005cd0c4ce89faee/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_807a17f97ba295b35473024dd20579b9e3411847/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_c77984dd060ee483f09f59f8c757d0d8f7890c9e/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_29195ba66d47e5bae798955e93264104dc8b6611/classes.dex" />
+    </item>
+    <item
+        jar="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/daniel14/classwork/AndroidStudioProjects/auroratracker-SpheryCube_save1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_c44a230a683afab3709d65e944d415e6045417bb/classes.dex" />
+    </item>
+
+</items>
